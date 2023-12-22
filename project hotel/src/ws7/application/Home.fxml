@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ws7.application.controller.HomeController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="266.0" layoutY="34.0" text="Welcom to ABC Hotel Booking Kiosk" textFill="#0a2fa8" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="startBookingButton" layoutX="134.0" layoutY="167.0" mnemonicParsing="false" text="Start Booking" textFill="#e010c3" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="229.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="adminPanelButton" layoutX="451.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Administrator Panel" textFill="#f5300e">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

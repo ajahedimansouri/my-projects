@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ws7.application.controller.AdminPanelController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+       <children>
+            <Label layoutX="286.0" layoutY="23.0" text="Administrator Panel" textAlignment="CENTER" textFill="#e50f02" underline="true" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="213.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="startBookingButton" layoutX="41.0" layoutY="100.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" text="Start Booking" textFill="#2a08eb" AnchorPane.leftAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="billServiceButton" layoutX="440.0" layoutY="100.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" text="Bill Service" textFill="#399049" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="currentBookingsButton" layoutX="41.0" layoutY="185.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" text="Current Bookings" textFill="#088fdd" AnchorPane.leftAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="availableRoomsButton" layoutX="440.0" layoutY="185.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="120.0" text="Available Rooms" textFill="#9e6d0b" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="applicationExitButton" alignment="CENTER" layoutX="482.0" layoutY="361.0" mnemonicParsing="false" text="Exit Application" textFill="#eb0808">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            
+            </children>
+       </AnchorPane>
+   </center>
+</BorderPane>
